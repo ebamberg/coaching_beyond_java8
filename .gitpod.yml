@@ -1,1 +1,6 @@
+# start up tasks
+tasks:
+- init: ./mvnw package -DskipTests
+  command: java -jar target/*.jar
+
 { image: { file: .gitpod.Dockerfile } }

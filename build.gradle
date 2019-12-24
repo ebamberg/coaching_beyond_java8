@@ -1,0 +1,24 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.ebamberg.coaching.demos'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 13
+targetCompatibility = 13
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+
+    // Dependencies to make demonstration easier
+
+
+}
+
+test {
+    testLogging.showStandardStreams = true
+    testLogging.exceptionFormat = 'full'
+}
